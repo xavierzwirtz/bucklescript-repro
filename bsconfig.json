@@ -1,0 +1,21 @@
+{
+  "name": "razzle-reason",
+  "bsc-flags": ["-bs-no-version-header", "-bs-super-errors"],
+  "refmt": 3,
+  "reason": {
+    "react-jsx": 2
+  },
+  "bs-dependencies": ["reason-react"],
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "es6-global",
+      "in-source": false
+    }
+  ]
+}
